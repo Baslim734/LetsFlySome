@@ -13,6 +13,7 @@
 		FC266DAF29F11DE200E25C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC266DAD29F11DE200E25C28 /* Main.storyboard */; };
 		FC266DB129F11DE200E25C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC266DB029F11DE200E25C28 /* Assets.xcassets */; };
 		FC266DB429F11DE200E25C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC266DB229F11DE200E25C28 /* LaunchScreen.storyboard */; };
+		FC266DBC29F1204200E25C28 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC266DBB29F1204200E25C28 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC266DB029F11DE200E25C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC266DB329F11DE200E25C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC266DB529F11DE200E25C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC266DBB29F1204200E25C28 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		FC266D9B29F11DE200E25C28 = {
 			isa = PBXGroup;
 			children = (
+				FC266DBB29F1204200E25C28 /* AuthViewController.swift */,
 				FC266DA629F11DE200E25C28 /* LetsFlySome */,
 				FC266DA529F11DE200E25C28 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC266DBC29F1204200E25C28 /* AuthViewController.swift in Sources */,
 				FC266DAC29F11DE200E25C28 /* ViewController.swift in Sources */,
 				FC266DA829F11DE200E25C28 /* AppDelegate.swift in Sources */,
 				FC266DAA29F11DE200E25C28 /* SceneDelegate.swift in Sources */,

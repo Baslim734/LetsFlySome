@@ -52,7 +52,7 @@ class ViewController: UIViewController {
                 let viewController = AuthViewController()
                 viewController.modalTransitionStyle = .crossDissolve
                 viewController.modalPresentationStyle = .fullScreen
-                self.present(viewController, animated: true)
+                self.performSegue(withIdentifier: "showAuth", sender: self)
             })
         }})
         

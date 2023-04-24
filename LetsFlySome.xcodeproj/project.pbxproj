@@ -42,7 +42,6 @@
 		FC266D9B29F11DE200E25C28 = {
 			isa = PBXGroup;
 			children = (
-				FC266DBB29F1204200E25C28 /* AuthViewController.swift */,
 				FC266DA629F11DE200E25C28 /* LetsFlySome */,
 				FC266DA529F11DE200E25C28 /* Products */,
 			);
@@ -59,9 +58,10 @@
 		FC266DA629F11DE200E25C28 /* LetsFlySome */ = {
 			isa = PBXGroup;
 			children = (
-				FC266DA729F11DE200E25C28 /* AppDelegate.swift */,
 				FC266DA929F11DE200E25C28 /* SceneDelegate.swift */,
+				FC266DBB29F1204200E25C28 /* AuthViewController.swift */,
 				FC266DAB29F11DE200E25C28 /* ViewController.swift */,
+				FC266DA729F11DE200E25C28 /* AppDelegate.swift */,
 				FC266DAD29F11DE200E25C28 /* Main.storyboard */,
 				FC266DB029F11DE200E25C28 /* Assets.xcassets */,
 				FC266DB229F11DE200E25C28 /* LaunchScreen.storyboard */,

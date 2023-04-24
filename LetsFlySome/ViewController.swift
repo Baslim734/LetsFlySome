@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         imageView.image = UIImage(named: "logo")
         return imageView
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(imageView)
-       
+        
     }
     
     override func viewDidLayoutSubviews() {
@@ -44,21 +44,22 @@ class ViewController: UIViewController {
             
             self.imageView.alpha = 0
         })
-        
         UIView.animate(withDuration: 1.5, animations: {
             self.imageView.alpha = 0
         }, completion: { done in if done {
             DispatchQueue.main.asyncAfter(deadline: .now()+0.3, execute: {
-                let viewController = AuthViewController()
-                viewController.modalTransitionStyle = .crossDissolve
-                viewController.modalPresentationStyle = .fullScreen
-                self.performSegue(withIdentifier: "showAuth", sender: self)
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let authController = storyboard.instantiateViewController(withIdentifier: "AuthViewController") as! AuthViewController
+                authController.modalTransitionStyle = .crossDissolve
+                authController.modalPresentationStyle = .fullScreen
+                self.present(authController, animated: true, completion: nil)
+                
             })
         }})
         
-     
+        
     }
-
-
+    
+    
 }
 

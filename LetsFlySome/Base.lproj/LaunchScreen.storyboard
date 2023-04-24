@@ -31,29 +31,10 @@
                             <constraint firstItem="EM7-Ec-5qO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h5l-Ty-DnX"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="R16-z8-fNz" kind="show" identifier="showAuth" id="w05-B2-Wat"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
-        </scene>
-        <!--Auth View Controller-->
-        <scene sceneID="EWT-qE-nG5">
-            <objects>
-                <viewController id="R16-z8-fNz" customClass="AuthViewController" customModule="LetsFlySome" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Qdd-9m-DGc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="zrA-Yk-xyp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="WNy-E9-Mz0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzx-k9-8QO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="963" y="375"/>
         </scene>
     </scenes>
     <resources>
